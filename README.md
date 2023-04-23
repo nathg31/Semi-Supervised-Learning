@@ -5,7 +5,7 @@ The lack of labeled data is a major obstacle in applying deep learning to practi
 
 Consistency regularization is an important component of advanced semi-supervised algorithms. It uses unlabeled data by assuming that the model should produce similar predictions when fed with perturbed versions of the same image. The idea has been popularized by several research works and is implemented through a loss function that combines a supervised classification loss and a loss on unlabeled data. Pseudo-labeling is a method that uses the model itself to obtain artificial labels for unlabeled data. It uses hard labels and retains only those whose highest class probability is above a predefined threshold. These two methods are often used together to improve the performance of semi-supervised models.
 
-
+More information in the pdf 
 
 
 
