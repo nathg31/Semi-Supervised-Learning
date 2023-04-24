@@ -3,6 +3,7 @@ from copy import deepcopy
 import shutil 
 import os
 
+# Cette architecture a été prise  de https://github.com/kekmodel/FixMatch-pytorch
 class ModelEMA(object):
     """
     Description: Cette classe est utilisée pour maintenir une moyenne exponentielle mobile (EMA) 

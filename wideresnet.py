@@ -1,3 +1,4 @@
+# Cette architecture a été prise  de https://github.com/kekmodel/FixMatch-pytorch
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
